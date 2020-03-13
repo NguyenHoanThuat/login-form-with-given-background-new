@@ -1,8 +1,16 @@
 
 .container{
-    width: 100%;
+    width: 50%;
     padding: 50px 0px 0 0px;
     margin: auto;
+}
+div.loveFood {
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+}
+img.loveFood {
+    width: 80%;
 }
 body {
     background-image: url(./img/undraw_social_girl_562b.svg);
@@ -28,12 +36,13 @@ img.iconFB, img.iconGG{
 }
 div.main {
     width: 100%;
+    display: flex;
 }
 .mainCenter{
     width: 420px;
     margin: auto;
     border-radius: .375rem;
-    background: linear-gradient(0deg, rgba(211,216,232,.5) 0%, rgba(255,255,255,.5) 100%);
+    background: linear-gradient(0deg, rgba(211,216,232,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 div.logo, a.logo{   
@@ -59,6 +68,11 @@ h2.dangNhap{
 .col-1 {
     text-align: center;
     
+}
+.col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .col-2, .col-3{
     margin-bottom: 1rem;
@@ -110,7 +124,7 @@ div.taoTaiKhoan{
 }
 p.textTaoTaiKhoan{
    padding: 10px 0 10px 0;
-   color: #fff;
+   color: #303030;
 }
 div.rong{
     height: 30px;
@@ -126,7 +140,13 @@ input[type="submit"] {
     background-image: linear-gradient(#5472b3, #4764a1 50%);
     color: #fff;
 }
-
+i {
+    padding-right: 10px;
+    color: #303030;
+}
+input.tenDangNhap:hover i.icon-user {
+    color: #75B9BE;
+}
 
 /* table */
 
@@ -136,14 +156,26 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
     body {
         width: 100%;
+    }
+    div.container {
+        width: 100%;
+    }
+    div.loveFood {
+        display: none;
     }
 }
 
 @media screen and (max-width: 680px) {
     body {
+        width: 100%;
+    }
+    div.main {
+        width: 100%;
+    }
+    div.container {
         width: 100%;
     }
 }
@@ -152,9 +184,21 @@ input[type="submit"] {
     body {
         width: 100%;
     }
+    div.main {
+        width: 100%;
+    }
+    div.container {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 320px) {
     body {
+        width: 100%;
+    }
+    div.main {
+        width: 100%;
+    }
+    .container {
         width: 100%;
     }
 }

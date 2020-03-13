@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="dangNhap.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/cb5c79a20f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="main">
       <div class="container">
-        <form action="./index.html" class="mainCenter", method="POST", name="form">
+        <form action="./index.html" class="mainCenter", method="GET", name="form">
           <div class="logo">
             <a href="" class="logo">
-              <img src="./img/image.png" alt="" class="logo" />
+              <img src="./img/image.png" alt="./index.html" class="logo" />
             </a>
           </div>
           <h1 class="dangNhap">
@@ -26,24 +27,26 @@
           <div class="content">
             <div class="col-1">
               <div class="col-2">
+                <i class="icon-user   fas fa-user-tie fa-2x"></i>
                 <input
                   type="text"
                   class="tenDangNhap"
                   name="tenDangNhap"
                   placeholder="Tên đăng nhập"
-                  onkeyup="return onChange()"
+                  onchange= "return onChange()"
                 />
               </div>
               <div class="col-2">
+                <i class="icon-pass fas fa-unlock fa-2x"></i>
                 <input
-                  type="text"
+                  type="password"
                   name="password"
                   class="matKhauDangNhap"
                   placeholder="Mật khẩu"
-                  onkeyup="return onChange()"
+                  onchange= "return onChange()"
                 />
-                <p id="passError" style="color: red;"></p>
               </div>
+              <p id="passError" style="color: red;"></p>
               <div class="col-3">
                 <input
                   type="submit"
@@ -88,6 +91,10 @@
             </p>
           </div>
         </div>
+      </div>
+
+      <div class="loveFood">
+        <img class="loveFood" src="./img/undraw_cookie_love_ulvn.svg" alt="">
       </div>
     </div>
 
