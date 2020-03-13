@@ -1,0 +1,160 @@
+
+.container{
+    width: 100%;
+    padding: 50px 0px 0 0px;
+    margin: auto;
+}
+body {
+    background-image: url(./img/undraw_social_girl_562b.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Roboto;
+}
+a{
+    text-decoration: none;
+}
+img.logo{
+    height: 85px;
+    width: 200px;
+    border-radius: .375rem; 
+}
+img.iconFB, img.iconGG{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: .8em;
+    padding-right: 10px;
+}
+div.main {
+    width: 100%;
+}
+.mainCenter{
+    width: 420px;
+    margin: auto;
+    border-radius: .375rem;
+    background: linear-gradient(0deg, rgba(211,216,232,.5) 0%, rgba(255,255,255,.5) 100%);
+}
+
+div.logo, a.logo{   
+    height: 85px;
+    width: 200px;
+    margin: auto;
+}
+div.logo{
+    padding-top: 30px;
+}
+h1.dangNhap{
+    text-align: center;
+    padding-top: 20px;
+    color: #505050;
+}
+h2.dangNhap{
+    text-align: center;
+    color: #505050;
+}
+.content{
+    padding: 20px 20px 20px 20px;
+}
+.col-1 {
+    text-align: center;
+    
+}
+.col-2, .col-3{
+    margin-bottom: 1rem;
+}
+.tenDangNhap, .matKhauDangNhap{
+    width: 289px;
+    padding: 15px 0 15px 10px;
+    font-size: 1.1rem;
+    border: 1.5px solid #f1f4f8;
+    border-radius: .375rem; 
+}   
+.bntDangNhap{
+    background-image: linear-gradient(#5472b3, #4764a1 50%);
+    background-color: #1a73e8;
+    color: #f1f4f8;
+    width: 200px;
+    padding: 15px 0 15px 10px;
+    font-size: 1.1rem;
+    border: 1.5px solid #f1f4f8;
+    border-radius: .375rem; 
+}
+.col-4{
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dash{
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    top: .45em;
+}
+.hoac{
+    padding: 0 10px 0 10px;
+    color: #303030;
+}
+a.fb, a.google{
+    display: inline-flex;
+    text-align: center;
+    color: #385185;
+}   
+div.taoTaiKhoan{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+}
+p.textTaoTaiKhoan{
+   padding: 10px 0 10px 0;
+   color: #fff;
+}
+div.rong{
+    height: 30px;
+}
+p.textFB, p.textGG {
+    color: #303030;
+}
+a.taoTaiKhoan {
+    color: #094794;
+}
+input[type="submit"] {
+    width: 150px;
+    background-image: linear-gradient(#5472b3, #4764a1 50%);
+    color: #fff;
+}
+
+
+/* table */
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+}

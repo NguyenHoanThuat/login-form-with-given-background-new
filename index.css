@@ -1,0 +1,81 @@
+body.index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("./img/img3.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 895px;
+}
+a{
+    text-decoration: none;
+}
+img.logo{
+    height: 85px;
+    width: 200px;
+    border-radius: .375rem; 
+}
+.menu{
+    height: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    display: flex;
+}
+.dangNhapDangKy{
+    display: block;
+    position: absolute;
+    right: 460px;
+    margin-top: 29px;
+}
+.dangNhap, .taoTaiKhoan{   
+    font-size: 1.5rem;
+    height: 85px;
+    padding: 10px 20px 10px 20px;
+    border-radius: .375rem; 
+}
+.dangNhap{
+    margin-right: 20px;
+    background-color: white;
+    color: #000;
+}
+.taoTaiKhoan{
+    background-color: rgb(74, 77, 78);
+    color: white;
+}
+
+
+
+div.main{
+    display: flex;
+}
+a{
+    color: #ffffff;
+    font-size: 5rem;
+}
+h1{
+    color: #ffffff;
+    font-size: 4rem;
+    
+}
+span{
+    font-size: 3rem;
+    color: rgb(219, 186, 192);
+}
+.mainLeft{
+    height: 500px;
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 140px;
+    text-align: center;
+}
+.mainRight{
+    display: block;
+    position: absolute;
+    right: 180px;
+}

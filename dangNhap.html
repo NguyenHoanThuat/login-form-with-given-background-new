@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dangNhap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <form action="./index.html" class="mainCenter", method="POST", name="form">
+          <div class="logo">
+            <a href="" class="logo">
+              <img src="./img/image.png" alt="" class="logo" />
+            </a>
+          </div>
+          <h1 class="dangNhap">
+            Đăng nhập
+          </h1>
+          <h2 class="dangNhap">
+            sử dụng tài khoản Food của bạn
+          </h2>
+          <div class="content">
+            <div class="col-1">
+              <div class="col-2">
+                <input
+                  type="text"
+                  class="tenDangNhap"
+                  name="tenDangNhap"
+                  placeholder="Tên đăng nhập"
+                  onkeyup="return onChange()"
+                />
+              </div>
+              <div class="col-2">
+                <input
+                  type="text"
+                  name="password"
+                  class="matKhauDangNhap"
+                  placeholder="Mật khẩu"
+                  onkeyup="return onChange()"
+                />
+                <p id="passError" style="color: red;"></p>
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  name="dangnhap"
+                  value="Đăng nhập"
+                  class="matKhauDangNhap"
+                  onclick="return checkForm()"
+                />
+              </div>
+              <div class="col-4">
+                <div class="dash"></div>
+                <div class="hoac">
+                  HOẶC
+                </div>
+                <div class="dash"></div>
+              </div>
+              <div class="col-5">
+                <a href="" class="fb">
+                  <img src="./img/img6.png" alt="iconFacebook" class="iconFB" />
+                  <p class="textFB">Đăng nhập bằng Facebook</p>
+                </a>
+                <a href="" class="google">
+                  <img src="./img/img8.png" alt="iconGoogle" class="iconGG" />
+                  <p class="textGG">Đăng nhập bằng Google</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="rong"></div>
+
+        <div class="mainCenter taotaikhoang-main">
+          <div class="taoTaiKhoan">
+            <p class="textTaoTaiKhoan">
+              Bạn chưa có tài khoản?
+              <span class="taoTaiKhoan"
+                ><a href="" class="taoTaiKhoan">
+                  Tạo tài khoản
+                </a></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
